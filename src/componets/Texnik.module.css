@@ -1,0 +1,371 @@
+.ab_col {
+  background-image: url("../img/1616710948_45-p-belii-abstraktnii-fon-48.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.color_red {
+  color: red;
+}
+.class_link {
+  position: relative;
+  left: 13rem;
+  top: 2rem;
+}
+.class_link svg {
+  width: 100px;
+  height: 3vh;
+  background: #613ea1;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.text_h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.class_b:hover svg {
+  background: #985fe4;
+  color: aliceblue;
+}
+
+.input_text {
+  position: relative;
+  display: flex;
+  gap: rem;
+  justify-content: center;
+  align-items: center;
+
+  width: 1900px;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.input_text_cow {
+  position: relative;
+  display: flex;
+  gap: rem;
+  justify-content: center;
+  align-items: center;
+
+  width: 1900px;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-left: 230px;
+  padding-right: 100px;
+}
+
+.menu_text label {
+  padding-left: 1rem;
+  width: 250px;
+}
+.menu_text input {
+  width: 300px;
+}
+
+.menu_text {
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  width: 45%;
+}
+
+.input_1 {
+  display: flex;
+}
+.label_1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.row_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(219, 222, 226);
+  background-color: #fff;
+  height: 8vh;
+  padding-left: 7rem;
+}
+.row_1 label {
+  width: 210px;
+}
+.row_1 input {
+  width: 300px;
+}
+.row_a {
+  align-items: center;
+  width: 100%;
+}
+
+.color_section {
+  background-color: #ffffff;
+  height: 260px;
+  margin-left: 14rem;
+}
+
+.border_input {
+  border: 5px solid #1a6591;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 14rem;
+  margin-right: 3rem;
+}
+.border_h5 h5 {
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.border_h5 p {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-style: italic;
+}
+.border_h5 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+/* фото коровы */
+.cow_img img {
+  width: 250px;
+  height: 25vh;
+}
+.cow_item {
+  position: absolute;
+  left: 1rem;
+}
+
+.cow_img {
+  display: flex;
+
+  justify-content: center;
+  border: 2px solid #1a6591;
+  border-radius: 5px;
+}
+.cow_color {
+  background-color: #1a6591;
+  height: 5vh;
+}
+.camera_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4px;
+  gap: 1rem;
+  align-items: center;
+}
+
+.camera_div button {
+  background-color: #d4b81a;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+}
+.camera_div svg {
+  width: 25px;
+  height: 25px;
+}
+.camera_div input {
+  width: 129px;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* фон календарь  */
+.date_1 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 230px;
+}
+.date_width input {
+  width: 100px;
+}
+.date_width_1 {
+  background-color: #ffffff;
+  width: 49%;
+  border-radius: 5px;
+}
+.date_width_1 input {
+  width: 160px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.select_px {
+  width: 230px;
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+}
+/* 320-380 */
+@media (min-width: 320px) and (max-width: 379px) {
+  .menu_text label {
+    width: 100%;
+  }
+  .input_text {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .text_h1 h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 5rem;
+    padding-bottom: 0rem;
+  }
+  .menu_text {
+    width: 80%;
+  }
+  .class_link svg {
+    width: 60px;
+    height: 2vh;
+    background: #613ea1;
+    color: aliceblue;
+    border-radius: 15px;
+  }
+  .class_link {
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+  }
+  .ab_col {
+    background-image: url("../img/istockphoto-1212342896-612x612.jpg");
+
+    height: 100%;
+    width: 100%;
+  }
+}
+/* 380-424 */
+@media (min-width: 380px) and (max-width: 424px) {
+  .menu_text label {
+    width: 100%;
+  }
+  .input_text {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .text_h1 h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    position: relative;
+    left: 2rem;
+    padding-bottom: 0rem;
+  }
+  .menu_text {
+    width: 75%;
+  }
+  .class_link svg {
+    width: 60px;
+    height: 2vh;
+    background: #613ea1;
+    color: aliceblue;
+    border-radius: 15px;
+  }
+  .class_link {
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+  }
+}
+
+/* 375-778 */
+
+@media (min-width: 425px) and (max-width: 525px) {
+  .menu_text label {
+    width: 100%;
+  }
+  .input_text {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+    width: 420px;
+
+    margin: 0 auto;
+  }
+
+  .text_h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .menu_text {
+    width: 75%;
+  }
+}
+
+@media (min-width: 526px) and (max-width: 778px) {
+  .menu_text label {
+    width: 100%;
+  }
+  .input_text {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .text_h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 779px) and (max-width: 1023px) {
+  .menu_text label {
+    width: 100%;
+  }
+  .input_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+
+    margin: 0 auto;
+    width: 550px;
+  }
+  .menu_text {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .input_text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+
+    margin: 0 auto;
+    width: 800px;
+  }
+  .menu_text {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .menu_text label {
+    width: 100%;
+  }
+}
